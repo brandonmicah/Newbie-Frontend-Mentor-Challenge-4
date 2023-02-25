@@ -1,0 +1,101 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --ff: 'Outfit', sans-serif;
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: var(--ff);
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+    padding: 15px 15px 0 15px;
+    margin: 0 auto;
+}
+
+#whitebox {
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 3%;
+    width: 280px;
+    background-color: white;
+}
+
+#maintext {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#subtext {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: gray;
+    
+}
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    max-width: 280px;
+    background-color: var(--white);
+    border-radius: 3%;
+    align-self: center;
+}
+
+.bottom {
+
+    text-align: center;
+    padding: 0 13px;
+    font-size: 13px;
+}
+
+h2 {
+    font-weight: var(--fw-700)
+}
+
+p {
+    opacity: .7;
+    font-weight: var(--fw-400);
+    padding: 0 13px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 30px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
